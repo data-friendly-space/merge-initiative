@@ -1,0 +1,920 @@
+ISO Code,Location,Original Region
+AFG,Daikundi,Central Highlands (Bamyan Daikundi)
+AFG,Helmand,South (Uruzgan Helmand Zabul Nimroz Kandahar)
+AFG,Herat,West (Ghor Herat Badghis Farah)
+AFG,Sar-e-Pul,North (Samangan Sar-e-Pul Balkh Jawzjan Faryab)
+AGO,Bie, Bie
+AGO,Huila, Huila
+AGO,Kuando Kubango, Kuando Kubango
+AGO,Kuanza Norte, Kuanza Norte
+AGO,Kuanza Sul, Kuanza Sul
+ALA,Aland,Aland
+ALB,Diber, Diber
+ALB,Durres, Durres
+ALB,Gjirokaster, Gjirokaster
+ALB,Korce, Korce
+ALB,Kukes, Kukes
+ALB,Lezhe, Lezhe
+ALB,Shkoder, Shkoder
+ALB,Vlore, Vlore
+ARG,Cuyo,Cuyo
+ARG,Gran Buenos Aires,Gran Buenos Aires
+ARG,NEA,NEA
+ARG,NOA,NOA
+ARG,Pampeana,Pampeana
+ARG,Patagonia,Patagonia
+AUS,Ashmore,"Ashmore and Cartier Islands, Coral Sea Islands Territory"
+AUS,Cartier Islands,"Ashmore and Cartier Islands, Coral Sea Islands Territory"
+AUT,Karnten,Karnten
+AUT,Niederosterreich,Niederosterreich
+AUT,Oberosterreich,Oberosterreich
+AZE,Baku,Baku
+AZE,Dakhlik Shirvan,Dakhlik Shirvan
+AZE,East Zangezur,East Zangezur
+AZE,Ganja Gazakh,Ganja Gazakh
+AZE,Guba Khachmaz,Guba Khachmaz
+AZE,Shaki Zaqatala,Shaki Zaqatala
+AZE,Yukhari Karabakh,Yukhari Karabakh
+BDI,Buja Rural,"West (Bubanza, Buja Rural, Cibitoke, Mairie de Bujumbura)"
+BDI,Mairie de Bujumbura,"West (Bubanza, Buja Rural, Cibitoke, Mairie de Bujumbura)"
+BEL,Bruxelles - Brussel,Bruxelles - Brussel
+BEL,Prov. Antwerpen,Prov. Antwerpen
+BEL,Prov. Brabant Wallon,Prov. Brabant Wallon
+BEL,Prov. Hainaut,Prov. Hainaut
+BEL,Prov. Liege,Prov. Liege
+BEL,Prov. Limburg,Prov. Limburg
+BEL,Prov. Luxembourg,Prov. Luxembourg
+BEL,Prov. Namur,Prov. Namur
+BEL,Prov. Oost-Vlaanderen,Prov. Oost-Vlaanderen
+BEL,Prov. Vlaams-Brabant,Prov. Vlaams-Brabant
+BEL,Prov. West-Vlaanderen,Prov. West-Vlaanderen
+BEN,Plateau,Queme (incl Plateau)
+BFA,Boucle de Mouhoun,Boucle de Mouhoun
+BFA,Est,Est
+BFA,Hauts Bassins,Hauts Bassins
+BFA,Nord,Nord
+BFA,Ouagadougou,Centre (incl Ouagadougou)
+BFA,Plateau Central,Plateau Central
+BFA,Sud-Ouest,Sud-Ouest
+BGD,Brahmanbaria," Brahmanbaria, Chandpur, Comilla"
+BGD,Cox s Bazar," Bandarban, Cox s Bazar"
+BGD,Gopalganj," Gopalganj, Madaripur, Munshiganj, Shariatpur"
+BGD,Jaypurhat," Bogra, Gaibandha, Jaypurhat"
+BGR,Severen tsentralen,Severen tsentralen
+BGR,Severoiztochen,Severoiztochen
+BGR,Severozapaden,Severozapaden
+BGR,Yugoiztochen,Yugoiztochen
+BGR,Yugozapaden,Yugozapaden
+BGR,Yuzhen tsentralen,Yuzhen tsentralen
+BIH,Northern Bosnia,Northern Bosnia
+BIH,Republica Srpska,Republica Srpska
+BIH,Western Bosnia,Western Bosnia
+BIH,Western herzegovina,Western herzegovina
+BLZ,Corozal,"Corozal, Orange Walk"
+BOL,La Paz,La Paz
+BOL,Potosi,Potosi
+BRA,Amapa,Amapa
+BRA,Ceara,Ceara
+BRA,Distrito Federal,Distrito Federal
+BRA,Espirito Santo,Espirito Santo
+BRA,Goias,Goias
+BRA,Maranhao,Maranhao
+BRA,Paraiba,Paraiba
+BRA,Piaui,Piaui
+BRA,Rondonia,Rondonia
+BRA,Sao Paulo,Sao Paulo
+BRB,St Michael,St Michael
+BRB,St. Andrew,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John"
+BRB,St. George,"St. James, St. George, and St. Thomas"
+BRB,St. James,"St. James, St. George, and St. Thomas"
+BRB,St. John,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John"
+BRB,St. Joseph,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John"
+BRB,St. Lucy,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John"
+BRB,St. Peter,"St. Lucy, St. Peter, St. Andrew, St. Joseph, and St. John"
+BRB,St. Philip,Christ Church and St. Philip
+BRB,St. Thomas,"St. James, St. George, and St. Thomas"
+BTN,Chukha,Chukha
+BTN,Lhuntse,Lhuntse
+BTN,Wangdi,Wangdi
+BWA,Ngamiland,"North-West, Ngamiland"
+CAF,Baminigui Bangoran,"RS IV (Haute-Kotto, Baminigui Bangoran, Vakaga)"
+CAF,Basse Kotto,"RS V (Basse Kotto, Mbornou, Houte Mbormou)"
+CAF,Houte Mbormou,"RS V (Basse Kotto, Mbornou, Houte Mbormou)"
+CAF,Kemo,"RS I (Ombella Mpoko, Lobaye, Kemo, Nana Grebizi, Ouaka)"
+CAF,Mambera Kadei,"RS II (Mambera Kadei, Nana Mambere, Sangha Mbaere)"
+CAF,Mbornou,"RS V (Basse Kotto, Mbornou, Houte Mbormou)"
+CAF,Nana Grebizi,"RS I (Ombella Mpoko, Lobaye, Kemo, Nana Grebizi, Ouaka)"
+CAF,Nana Mambere,"RS II (Mambera Kadei, Nana Mambere, Sangha Mbaere)"
+CAF,Ombella Mpoko,"RS I (Ombella Mpoko, Lobaye, Kemo, Nana Grebizi, Ouaka)"
+CAF,Ouham Pende,"RS III (Ouham Pende, Ouham)"
+CAF,Sangha Mbaere,"RS II (Mambera Kadei, Nana Mambere, Sangha Mbaere)"
+CAN,Labrador,Newfoundland and Labrador
+CAN,Quebec,Quebec
+CHE,Central Switzerland,Central Switzerland
+CHE,Eastern Switzerland,Eastern Switzerland
+CHE,Espace Mittelland,Espace Mittelland
+CHE,Lake Geneva,Lake Geneva region
+CHE,Northwestern Switzerland,Northwestern Switzerland
+CHE,Zurich,Zurich
+CHL,Aisen,Aisen
+CHL,Arbucania,Arbucania
+CHL,Bio Bio,Bio Bio
+CHL,Centro V - VII, Centro V - VII
+CHL,La Antartica Chilena,Magallanes and La Antartica Chilena
+CHL,Los,Los Lagos (incl Los Rios)
+CHL,Magallanes,Magallanes and La Antartica Chilena
+CHL,Norte I - IV, Norte I - IV
+CHL,OHiggins,OHiggins
+CHL,Region Metropolitana,Region Metropolitana
+CHL,Rios,Los Lagos (incl Los Rios)
+CHL,Sur VIII - XII, Sur VIII - XII
+CHL,former,Valparaiso (former Aconcagua)
+CHN,Guangxi Zhuang,Guangxi Zhuang
+CHN,Hongkong,Hongkong
+CHN,Inner Mongolia," Henan, Shanxi, Shaanxi, Inner Mongolia"
+CHN,Inner Mongolia,Inner Mongolia
+CHN,Ningxia," Gansu, Qinghai, Ningxia, Xinjiang"
+CHN,Ningxia,Ningxia
+CHN,Tibet," Chongqing, Sichuan, Guizhou, Yunnan, Tibet"
+CHN,Tibet,Tibet
+CHN,Xinjiang," Gansu, Qinghai, Ningxia, Xinjiang"
+CHN,Xinjiang,Xinjiang
+CIV,Bas Sassandra,Bas Sassandra
+CIV,Centre,Centre
+CIV,Centre Est,Centre Est
+CIV,Centre Nord,Centre Nord
+CIV,Centre Ouest,Centre Ouest
+CIV,Comoe,Comoe
+CIV,Denguele,Denguele
+CIV,Goh-Djiboua,Goh-Djiboua
+CIV,Nord,Nord
+CIV,Nord Est,Nord Est
+CIV,Nord Ouest,Nord Ouest
+CIV,Ouest,Ouest
+CIV,Sassandra-Marahoue,Sassandra-Marahoue
+CIV,Sud,"Sud, Abidjan"
+CIV,Sud Ouest,Sud Ouest
+CIV,Vallee du Bandama,Vallee du Bandama
+CMR,Douala,Littoral (incl Douala)
+CMR,Extreme Nord,Extreme Nord
+CMR,Nord,Nord
+CMR,Nord Ouest,Nord Ouest
+CMR,Ouest,Ouest
+CMR,Sud,Sud
+CMR,Sud Ouest,Sud Ouest
+COD,Bas-Congo,Bas-Congo
+COD,Equateur,Equateur
+COD,Kasai Occidental,Kasai Occidental
+COD,Kasai Oriental,Kasai Oriental
+COD,Katanga,Katanga
+COD,Orientale,Orientale
+COG,Cuvette Ouest, Cuvette Ouest
+COG,Lekoumou, Lekoumou
+COG,Sangha, Sangha
+COL,Amazonas,Amazonas
+COL,Bogota D.C.,Bogota D.C.
+COL,Boyaca,Boyaca
+COL,Caqueta,Caqueta
+COL,Choco,Choco
+COL,Cordoba,Cordoba
+COL,Guainja,Guainja
+COL,Medellin,Antioquia (incl Medellin)
+COL,Narino,Narino
+COL,Norte,Bolivar (Sur and Norte)
+COL,Quindio,Quindio
+COL,Sucre,Sucre
+COL,Sur,Bolivar (Sur and Norte)
+COL,Vaupis,Vaupis
+COM,Moheli,Moheli
+COM,Ndzouani,Anjouan (Ndzouani)
+COM,Ngazidja,Grande Comore (Ngazidja)
+CPV,Fogo,Fogo
+CPV,S.Antao,S.Antao
+CPV,S.Vicente,S.Vicente
+CPV,Santiago- Praia,Santiago- Praia
+CPV,Santiago-Interior,Santiago-Interior
+CPV,So Nicola,"Other islands (Boa Vista, Brava, Maio, So Nicola, Sal)"
+CRI,Limon,Limon
+CRI,San Jose,San Jose
+CUB,C. Habana,C. Habana
+CUB,Camaguey,Camaguey
+CUB,Ciego de Avila,Ciego de Avila
+CUB,Guantanamo,Guantanamo
+CUB,Holguin,Holguin
+CUB,Isla,Isla
+CUB,Pinar del Rio,Pinar del Rio
+CUB,Prov. Habana,Prov. Habana
+CUB,S.Spiritus,S.Spiritus
+CZE,Jihovychod,Jihovychod
+CZE,Jihozapad,Jihozapad
+CZE,Moravskoslezsko,Moravskoslezsko
+CZE,Praha,Praha
+CZE,Severovychod,Severovychod
+CZE,Severozapad,Severozapad
+CZE,Stredni Cechy,Stredni Cechy
+CZE,Stredni Morava,Stredni Morava
+DEU,Baden-Wurttemberg,Baden-Wurttemberg
+DEU,Thuringen,Thuringen
+DJI,Djibouti,Djibouti
+DJI,Other Districts,Other Districts
+DNK,Sjaelland,Sjaelland
+DOM,Dajabon,"Region VII (Dajabon, Monte Cristi, Santiago Rodriguez, Valverde)"
+DOM,Elias Pina,"Region VI (San Juan, Elias Pina)"
+DOM,Maria Trinidad Sanchez,"Region III (Duarte, Maria Trinidad Sanchez, Salcedo, Samana)"
+DOM,Monsenor Nouel,"Region VIII (La Vega, Monsenor Nouel, Sanchez Ramirez)"
+DOM,Samana,"Region III (Duarte, Maria Trinidad Sanchez, Salcedo, Samana)"
+DOM,San Cristobal,"Region I (Peravia, San Cristobal, San Jose de Ocoa, Azua)"
+DOM,San Jose de Ocoa,"Region I (Peravia, San Cristobal, San Jose de Ocoa, Azua)"
+DOM,San Juan,"Region VI (San Juan, Elias Pina)"
+DOM,San Pedro de Macoris,"Region V (El Seibo, La Altagracia, La Romana, San Pedro de Macoris, Hato Mayor)"
+DOM,Sanchez Ramirez,"Region VIII (La Vega, Monsenor Nouel, Sanchez Ramirez)"
+DZA,Boumerdes,"Nord Centre (Alger, Blida, Boumerdes, Tipaza, Bouira, Medea, Tizi-Ouzou, Bejaia, Chlef, Ain Defla)"
+DZA,Saida,"Hauts Plateaux Ouest (Tiaret, Saida, Tissemsilt, Naama, El Bayadh)"
+ECU,Coste,Coste
+ECU,Galapagos,Galapagos
+ECU,Oriente,Oriente
+ECU,Sierra,Sierra
+EGY,Dakahlia,Dakahlia
+EGY,Fayoum,Fayoum
+EGY,Gharbia,Gharbia
+EGY,Kafr El-Sheikh,Kafr El-Sheikh
+EGY,Kalyubia,Kalyubia
+EGY,Matroh,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)"
+EGY,Menoufia,Menoufia
+EGY,Menya,Menya
+EGY,New Valley,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)"
+EGY,North Sainai,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)"
+EGY,Red Sea,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)"
+EGY,Sharkia,Sharkia
+EGY,Souhag,Souhag
+EGY,South Sainai,"Frontier governorates (Red Sea, New Valley, Matroh, North Sainai, South Sainai)"
+ERI,Asmara,Maekel (Central including Asmara)
+ERI,Debubawi Keih Bahri,Debubawi Keih Bahri
+ERI,Gash-Barka,Gash-Barka
+ERI,Red,Debubawi Keyih Bahri (Southern Red Sea)
+ERI,Red,Semenawi Keyih Bahri (Northern Red Sea)
+ERI,Sea,Debubawi Keyih Bahri (Southern Red Sea)
+ERI,Sea,Semenawi Keyih Bahri (Northern Red Sea)
+ERI,Semenawi Keih Bahri,Semenawi Keih Bahri
+ERI,uding,Maekel (Central including Asmara)
+ESP,Andalucia,Andalucia
+ESP,Aragon,Aragon
+ESP,Castilla y Leon,Castilla y Leon
+ESP,Cataluna,Cataluna
+ESP,Ciudad Autonoma de Ceuta,Ciudad Autonoma de Ceuta
+ESP,Ciudad Autonoma de Melilla,Ciudad Autonoma de Melilla
+ESP,Illes Balears,Illes Balears
+ESP,Pais Vasco,Pais Vasco
+ESP,Region de Murcia,Region de Murcia
+EST,Kesk-Eesti,Kesk-Eesti
+EST,Kirde-Eesti,Kirde-Eesti
+EST,Laane-Eesti,Laane-Eesti
+EST,Louna-Eesti,Louna-Eesti
+EST,Pohja-Eesti,Pohja-Eesti
+ETH,Addis,Addis
+ETH,Affar,Affar
+ETH,Ben-Gumz,Ben-Gumz
+ETH,Harari,Harari
+ETH,SNNP,SNNP
+FIN,Aland,Aland
+FIN,Etela-Suomi,Etela-Suomi
+FIN,Helsinki-Uusimaa,Helsinki-Uusimaa
+FIN,Lansi-Suomi,Lansi-Suomi
+FIN,Pohjois-ja Ita-Suomi,Pohjois-ja Ita-Suomi
+FJI,Bua,"Cakaudrove, Bua"
+FJI,Nadroga or Navosa,Nadroga or Navosa
+FJI,Ra,Ra
+FRA,Alsace,Alsace
+FRA,Aquitaine,Aquitaine
+FRA,Auvergne,Auvergne
+FRA,Basse-Normandie,Basse-Normandie
+FRA,Bourgogne,Bourgogne
+FRA,Centre,Centre
+FRA,Champagne-Ardenne,Champagne-Ardenne
+FRA,Franche-Comte,Franche-Comte
+FRA,French Guyana,French Guyana
+FRA,Guadeloupe,Guadeloupe
+FRA,Haute-Normandie,Haute-Normandie
+FRA,Ile de France,Ile de France
+FRA,Languedoc-Roussillon,Languedoc-Roussillon
+FRA,Limousin,Limousin
+FRA,Lorraine,Lorraine
+FRA,Martinique,Martinique
+FRA,Mayotte,Mayotte
+FRA,Midi-Pyrenees,Midi-Pyrenees
+FRA,Picardie,Picardie
+FRA,Poitou-Charentes,Poitou-Charentes
+FRA,Provence-Alpes-Cote dAzur,Provence-Alpes-Cote dAzur
+FRA,Reunion,Reunion
+FRA,Rhone-Alpes,Rhone-Alpes
+GAB,Haut Ogooue,Haut Ogooue
+GAB,Libreville-Port Gentil,Libreville-Port Gentil
+GAB,Moyen Ogooue,Moyen Ogooue
+GAB,Ngounie,Ngounie
+GAB,Ogooue Ivindo,Ogooue Ivindo
+GAB,Ogooue Lolo,Ogooue Lolo
+GAB,Ogooue Maritime,Ogooue Maritime
+GAB,Woleu Ntem,Woleu Ntem
+GBR,East Midlands,East Midlands
+GBR,East of England,East of England
+GBR,London,London
+GBR,The Humber,Yorkshire and The Humber
+GBR,West Midlands,West Midlands
+GBR,Yorkshire,Yorkshire and The Humber
+GEO,Imereti Racha-Lochkhumi Kvemo Svaneti,Imereti Racha-Lochkhumi Kvemo Svaneti
+GEO,Samegrelo-Zemo Svateni,Samegrelo-Zemo Svateni
+GHA,Brong Ahafo,Brong Ahafo
+GIN,Boke,Boke
+GIN,Labe,Labe
+GIN,N Zerekore,N Zerekore
+GMB,Basse,Basse
+GMB,Brikama,Brikama
+GMB,Janjabureh,Janjabureh
+GMB,Kerewan,Kerewan
+GMB,Kuntaur,Kuntaur
+GMB,Mansakonko,Mansakonko
+GNQ,Annobon,"Annobon, Bioko"
+GNQ,Bioko,"Annobon, Bioko"
+GNQ,Kie Ntem,Kie Ntem
+GNQ,Litoral,Litoral
+GNQ,Wele Nzas,Wele Nzas
+GRC,Anatoliki Makedonia,"Anatoliki Makedonia, Thraki"
+GRC,Attiki,Attiki
+GRC,Dytiki Ellada,Dytiki Ellada
+GRC,Dytiki Makedonia,Dytiki Makedonia
+GRC,Ionia Nisia,Ionia Nisia
+GRC,Ipeiros,Ipeiros
+GRC,Kentriki Makedonia,Kentriki Makedonia
+GRC,Kriti,Kriti
+GRC,Notio Aigaio,Notio Aigaio
+GRC,Peloponnisos,Peloponnisos
+GRC,Sterea Ellada,Sterea Ellada
+GRC,Thessalia,Thessalia
+GRC,Thraki,"Anatoliki Makedonia, Thraki"
+GRC,Voreio Aigaio,Voreio Aigaio
+GTM,Metropolitan,Metropolitan
+GTM,North-Occidental,North-Occidental
+GTM,North-Oriental,North-Oriental
+GTM,Peten,Peten
+GTM,South-Occidental,South-Occidental
+GTM,South-Oriental,South-Oriental
+GUF,French Guyana,French Guyana
+HND,Atlantida,Atlantida
+HND,Colon,Colon
+HND,Copan,Copan
+HND,Cortes,Cortes
+HND,El Paraiso,El Paraiso
+HND,Francisco Morazan,Francisco Morazan
+HND,Intibuca,Intibuca
+HND,Islas de la Bahia,Islas de la Bahia
+HND,Santa Barbara,Santa Barbara
+HND,Valle,Valle
+HRV,Bjelovar-Bilogora,County of Bjelovar-Bilogora
+HRV,Brod-Posavina,County of Brod-Posavina
+HRV,City of Zagreb,City of Zagreb
+HRV,Istria,County of Istria
+HRV,Koprivnica-Krizevc,County of Koprivnica-Krizevc
+HRV,Pozega-Slavonia,County of Pozega-Slavonia
+HRV,Sibenik-Knin,County of Sibenik-Knin
+HRV,Split-Dalmatia,County of Split-Dalmatia
+HRV,Varazdin,County of Varazdin
+HTI,Camps,Camps
+HTI,Centre,Centre
+HTI,Grande-Anse,"Grande-Anse, Nippes"
+HTI,Metropolitain,West (incl Metropolitain area)
+HTI,area,West (incl Metropolitain area)
+HUN,Del-Alfold,Del-Alfold
+HUN,Del-Dunantul,Del-Dunantul
+HUN,Eszak-Alfold,Eszak-Alfold
+HUN,Eszak-Magyarorszag,Eszak-Magyarorszag
+HUN,Kozep-Dunantul,Kozep-Dunantul
+HUN,Kozep-Magyarorszag,Kozep-Magyarorszag
+HUN,Nyugat-Dunantul,Nyugat-Dunantul
+IDN,Barat,South Sulawesi (incl Sulawesi Barat)
+IDN,Central Java,Central Java
+IDN,Central Kalimantan,Central Kalimantan
+IDN,Central Sulawesi,Central Sulawesi
+IDN,DI Aceh,DI Aceh
+IDN,DI Yogyakarta,DI Yogyakarta
+IDN,DKI Jakarta,DKI Jakarta
+IDN,East Java,East Java
+IDN,East Kalimantan,East Kalimantan
+IDN,East Nusa Tenggara,East Nusa Tenggara
+IDN,East Timor,East Timor
+IDN,North Sulawesi,North Sulawesi
+IDN,North Sumatra,North Sumatra
+IDN,South Kalimantan,South Kalimantan
+IDN,South Sumatra,South Sumatra
+IDN,Southeast Sulawesi,Southeast Sulawesi
+IDN,Sulawesi,South Sulawesi (incl Sulawesi Barat)
+IDN,West Java,West Java
+IDN,West Kalimantan,West Kalimantan
+IDN,West Nusa Tenggara,West Nusa Tenggara
+IDN,West Sumatra,West Sumatra
+IDN,islands,Riau (incl. Riau islands)
+IND,Andaman,Andaman and Nicobar Islands
+IND,Chandigarth,Chandigarth
+IND,Dadra,Dadra and Nagar Haveli
+IND,Jammu,Jammu and Kashmir
+IND,Kashmir,Jammu and Kashmir
+IND,Nagar Haveli,Dadra and Nagar Haveli
+IND,New Delhi,New Delhi
+IND,Orissa,Orissa
+IND,Punjab,Punjab
+IND,Uttaranchal,Uttaranchal
+IRL,Border,Border
+IRL,Mid-East,Mid-East
+IRL,Mid-West,Mid-West
+IRL,Midland,Midland
+IRN,Bakhtiyari,Chaharmahal and Bakhtiyari
+IRN,Boyerahmad,Kohgiluyeh and Boyerahmad
+IRN,Chaharmahal,Chaharmahal and Bakhtiyari
+IRN,EastAzarbayejan,EastAzarbayejan
+IRN,Khorasan-e-Razavi,Khorasan-e-Razavi
+IRN,Sistanand Baluchestan,Sistanand Baluchestan
+IRN,WestAzarbayejan,WestAzarbayejan
+IRQ,Anbar,Anbar
+IRQ,Diala,Diala
+IRQ,Dohouk,Dohouk
+IRQ,Muthanna,Muthanna
+IRQ,Nenava,Nenava
+IRQ,Qadisiya,Qadisiya
+IRQ,Salaheldeen,Salaheldeen
+IRQ,Suleimaniya,Suleimaniya
+IRQ,Ta-amem-Karkuk,Ta-amem-Karkuk
+IRQ,Thi-Qar,Thi-Qar
+ITA,Provincia Autonoma di Bolzano,Provincia Autonoma di Bolzano
+ITA,Provincia Autonoma di Trento,Provincia Autonoma di Trento
+JAM,St Andrew,"Kingston, St Andrew"
+JAM,St Ann,"St Ann, St Catherine"
+JAM,St Catherine,"St Ann, St Catherine"
+JAM,St Elizabeth,"Trelawny, St Elizabeth"
+JAM,St James,"St James, Hanover, Westmoreland"
+JAM,St Mary,"St Thomas, Portland, St Mary"
+JAM,St Thomas,"St Thomas, Portland, St Mary"
+JOR,Aljoun,Aljoun
+JOR,Tafiela,Tafiela
+JPN,Hyogo,"Kansai region (Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama)"
+KAZ,(incl,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)"
+KAZ,Akmolinskaya,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)"
+KAZ,Aktyubinskaya,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)"
+KAZ,Almatinskaya,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)"
+KAZ,Almaty city,Almaty city
+KAZ,Astana,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)"
+KAZ,Atyrauskaya,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)"
+KAZ,East-Kazakhstanskaya,East region (East-Kazakhstanskaya)
+KAZ,Karagandinskaya,Central region (Karagandinskaya)
+KAZ,Kyzylordinskaya,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)"
+KAZ,Mangistauskaya,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)"
+KAZ,South-Kazakhstanskaya,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)"
+KAZ,West-Kazakhstanskaya,"West region (Aktyubinskaya, Atyrauskaya, Mangistauskaya, West-Kazakhstanskaya)"
+KAZ,Zhambylskaya,"South region (Almatinskaya, Zhambylskaya, Kyzylordinskaya, South-Kazakhstanskaya)"
+KAZ,city,"North region (Akmolinskaya (incl Astana city), Kostnaiskaya, Pavlodarskaya, North-Kazakhstanskaya)"
+KEN,Coast,Coast
+KEN,North Eastern,North Eastern
+KEN,Nyanza,Nyanza
+KEN,Rift Valley,Rift Valley
+KGZ,Chuy,Chuy
+KHM,Banteay Mean Chey,Banteay Mean Chey
+KHM,Bat Dambang-Krong Pailin,Bat Dambang-Krong Pailin
+KHM,Kampong Spueu,Kampong Spueu
+KHM,Kampong Thum,Kampong Thum
+KHM,Kampot-Krong Kaeb-Krong Preah Sihanouk,Kampot-Krong Kaeb-Krong Preah Sihanouk
+KHM,Kandal,Kandal
+KHM,Khmum,Kampong Cham (incl Tboung Khmum)
+KHM,Mondol Kiri-Rotanak Kiri,Mondol Kiri-Rotanak Kiri
+KHM,Pousat,Pousat
+KHM,Preah Vihear-Stueng Traeng-Kracheh,Preah Vihear-Stueng Traeng-Kracheh
+KHM,Siem Reab-Otdar Mean Chey,Siem Reab-Otdar Mean Chey
+KHM,Tboung,Kampong Cham (incl Tboung Khmum)
+KIR,Central Gibert,Central Gibert
+KIR,Line,Line and Phoenix Group
+KIR,Northern Gilbert,Northern Gilbert
+KIR,Phoenix Group,Line and Phoenix Group
+KIR,Southern Gilbert,Southern Gilbert
+KIR,Souyth Tarawa,Souyth Tarawa
+KOR,Capital,Capital Region
+KOR,Chungcheong,Chungcheong Region
+KOR,Gangwon,Gangwon Region
+KOR,Gyeongbuk,Gyeongbuk Region
+KOR,Gyeongnam,Gyeongnam Region
+KOR,Jeolla,Jeolla Region
+KWT,Ahmadi,Ahmadi
+KWT,Al Asimah,"Al Asimah, Hawalli, Al-Farwaniyah, Mubarak al-Sabah"
+KWT,Al-Farwaniyah,"Al Asimah, Hawalli, Al-Farwaniyah, Mubarak al-Sabah"
+KWT,Al-Jahra,Al-Jahra
+KWT,Mubarak al-Sabah,"Al Asimah, Hawalli, Al-Farwaniyah, Mubarak al-Sabah"
+LAO,Borikhamxay,Borikhamxay
+LAO,Champasack,Champasack
+LAO,Khammuane,Khammuane
+LAO,Luangprabang,Luangprabang
+LAO,Savannakhet,Savannakhet
+LAO,Sayabury,Sayabury
+LAO,Vientiane Municipality,Vientiane Municipality
+LAO,Vientiane Province,Vientiane Province
+LAO,Xiengkhuang,Xiengkhuang
+LBN,Nabtieh,"Southern, Nabtieh"
+LBR,Maryland,Maryland
+LBR,Monrovia, Monrovia
+LBR,North Central, North Central
+LBR,North Western, North Western
+LBR,South Central, South Central
+LBR,South Eastern A, South Eastern A
+LBR,South Eastern B, South Eastern B
+LBY,Cyrenaica,Cyrenaica
+LBY,Fezzan,Fezzan
+LBY,Tripolitania,Tripolitania
+LCA,St Lucia rural,St Lucia rural
+LCA,St Lucia urban,St Lucia urban
+LSO,Mohale s Hoek,Mohale s Hoek
+LSO,Qasha s Nek,Qasha s Nek
+LTU,Alytus County,Alytus County
+LTU,Kaunas County,Kaunas County
+LTU,Klaipeda County,Klaipeda County
+LTU,Marijampole County,Marijampole County
+LTU,Panevezys County,Panevezys County
+LTU,Siauliai County,Siauliai County
+LTU,Taurage County,Taurage County
+LTU,Telsiai County,Telsiai County
+LTU,Utena County,Utena County
+LTU,Vilnius County,Vilnius County
+LVA,Pieriga,Pieriga region
+MAR,Centre,Centre
+MAR,Centre north,Centre north
+MAR,Centre south,Centre south
+MAR,Tensift,Tensift
+MDA,Center,Center
+MDA,Chisinau,Chisinau
+MDG,Alaotra Mangoro,Alaotra Mangoro
+MDG,Anamoroni Mania,Anamoroni Mania
+MDG,Atsimo Andrefana,Atsimo Andrefana
+MDG,Atsimo Atsinanana,Atsimo Atsinanana
+MDV,Male,Male
+MDV,North Central,North Central
+MDV,South Central,South Central
+MEX,Estado, CDMX-Edo Mexico Ciudad de Mexico (Estado de Mexico)
+MEX,Mexico, CDMX-Edo Mexico Ciudad de Mexico (Estado de Mexico)
+MEX,Mexico,Mexico
+MEX,Michoacan de Ocampo,Michoacan de Ocampo
+MEX,Michoacan y Colima," Centro (Guerrero, Morelos, Puebla, Tlaxcala, Hidalgo, Michoacan y Colima)"
+MEX,Noreste (Aguascalientes," Noreste (Aguascalientes, Coahuila, Guanajuato, Nuevo Leon, Queretaro, San Luis Potosi, Tamaulipas,"
+MEX,Noroeste (Baja California," Noroeste (Baja California, Baja California Sur, Chihuahua, Durango, Jalisco, Nayarit, Sinaloa y Son"
+MEX,Nuevo Leon," Noreste (Aguascalientes, Coahuila, Guanajuato, Nuevo Leon, Queretaro, San Luis Potosi, Tamaulipas,"
+MEX,Nuevo Leon,Nuevo Leon
+MEX,Queretaro," Noreste (Aguascalientes, Coahuila, Guanajuato, Nuevo Leon, Queretaro, San Luis Potosi, Tamaulipas,"
+MEX,Queretaro,Queretaro
+MEX,San Luis Potosi," Noreste (Aguascalientes, Coahuila, Guanajuato, Nuevo Leon, Queretaro, San Luis Potosi, Tamaulipas,"
+MEX,San Luis Potosi,San Luis Potosi
+MEX,Sinaloa y Son," Noroeste (Baja California, Baja California Sur, Chihuahua, Durango, Jalisco, Nayarit, Sinaloa y Son"
+MEX,Veracruz y Yucatan," Sur (Campeche, Chiapas, Oaxaca, Quintana Roo, Tabasco, Veracruz y Yucatan)"
+MEX,Yucatan,Yucatan
+MEX,de, CDMX-Edo Mexico Ciudad de Mexico (Estado de Mexico)
+MKD,Pelagoniski,Pelagoniski
+MKD,Poloski,Poloski
+MKD,Skopski,Skopski
+MKD,Vardarski,Vardarski
+MMR,Taninthayi,Taninthayi
+MNE,Centre,Centre
+MNG,Arkhangai,"Khangai (Arkhangai, Bayankhongor, Bulgan, Uvurkhangai, Khuvsgul, Orkhon)"
+MNG,Bayan-Ulgii,"Western (Bayan-Ulgii, Govi-Altai, Zavkhan, Uvs, Khovd)"
+MNG,Darkhan-Uul,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)"
+MNG,Govi-Altai,"Western (Bayan-Ulgii, Govi-Altai, Zavkhan, Uvs, Khovd)"
+MNG,Govisumber,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)"
+MNG,Khentii,"Eastern (Dornod, Sukhbaatar, Khentii)"
+MNG,Khuvsgul,"Khangai (Arkhangai, Bayankhongor, Bulgan, Uvurkhangai, Khuvsgul, Orkhon)"
+MNG,Sukhbaatar,"Eastern (Dornod, Sukhbaatar, Khentii)"
+MNG,Tuv,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)"
+MNG,Umnugovi,"Central (Dornogovi, Dundgovi, Umnugovi, Selenge, Tuv, Darkhan-Uul, Govisumber)"
+MNG,Uvurkhangai,"Khangai (Arkhangai, Bayankhongor, Bulgan, Uvurkhangai, Khuvsgul, Orkhon)"
+MOZ,Maputo Cidade,Maputo Cidade
+MOZ,Maputo Provincia,Maputo Provincia
+MRT,Adrar,Adrar
+MRT,Hodh Gharbi,Hodh Gharbi
+MRT,Tiris-Zemmour,Tiris-Zemmour
+MRT,Trarza incl Nouakchott,Trarza incl Nouakchott
+MUS,Riviere du Rempart,"North (Port Louis, Pamplemousses, Riviere du Rempart, Flacq, Moka)"
+MUS,Rodrigues,Rodrigues
+MWI,Nkhota Kota,"Other central (Nkhota Kota, Mchinji, Dowa, Ntchisi, Dedza, Ntcheu)"
+MYS,Kuala Lumpur Federal Territory,Kuala Lumpur Federal Territory
+MYS,Labuan Federal Territory,Labuan Federal Territory
+MYS,Penang," North (Perlis, Kedah, Penang)"
+MYS,Saba," East Malaysia (Saba, Sarawak)"
+MYS,Terengganu," East (Kelantan, Terengganu, Pahang)"
+MYS,Terengganu,Terengganu
+MYS,Wilayah Persekutuan," Central (Perak, Selangor, Wilayah Persekutuan)"
+MYT,Mayotte,Mayotte
+NAM,Northeast, Northeast
+NAM,Northwest, Northwest
+NGA,Abuja FCT,Abuja FCT
+NGA,Adamawa,Adamawa
+NGA,Edo,Edo
+NGA,Zamfora,Zamfora
+NIC,Atlantico Norte (Raan,"Atlantico (Rio San Juan, Atlantico Norte (Raan), Atlantico Sur (Raas))"
+NIC,Esteli,"Central-Norte (Boaco, Chontales, Jinotega, Matagalpa, Esteli, Madriz, Nueva Segovia)"
+NIC,Leon,"Pacifico (Chinandega, Leon, Managua, Masaya, Granada, Carazo, Rivas)"
+NIC,Rio San Juan,"Atlantico (Rio San Juan, Atlantico Norte (Raan), Atlantico Sur (Raas))"
+NOR,Agder og Rogaland,Agder og Rogaland
+NOR,Hedmark og Oppland,Hedmark og Oppland
+NOR,Nord-Norge,Nord-Norge
+NOR,Oslo og Akershus,Oslo og Akershus
+NOR,Sor-Ostlandet,Sor-Ostlandet
+NOR,Trondelag,Trondelag
+NOR,Vestlandet,Vestlandet
+NPL,Bagmati province,Bagmati province
+NPL,Gandaki province,Gandaki province
+NPL,Karnali Province,Karnali Province
+NPL,Karnali province,Karnali province
+NPL,Koshi province,Koshi province
+NPL,Lumbini province,Lumbini province
+NPL,Madhesh province,Madhesh province
+NPL,Sudoorpaschim Province,Sudoorpaschim Province
+NPL,Sudurpashchim province,Sudurpashchim province
+NZL,Northern Islands,"Other islands (Chatham Islands, Northern Islands, Southern Islands)"
+NZL,Tasman - Nelson,Tasman - Nelson
+PAK,AJK,AJK
+PAK,Gilgit Baltistan,Gilgit Baltistan
+PAK,ICT,Islamabad (ICT)
+PAK,NWFrontier,Khyber Pakhtunkhwa (NWFrontier)
+PAN,Area Central, Area Central
+PAN,Area Metropolitana, Area Metropolitana
+PAN,Area Occidental, Area Occidental
+PAN,Area Oriental, Area Oriental
+PAN,Chiriqui,Chiriqui
+PAN,Cocle,Cocle
+PAN,Colon,Colon
+PAN,Darien,Darien
+PAN,Embera Wounaan,Embera Wounaan
+PAN,Ngobe Bugle,Ngobe Bugle
+PAN,Panama,Panama
+PER,Amazonas,"North East (Amazonas, Loreto, San Martin, Ucayali)"
+PER,Apurimac,"East (Madre de Dios, Cusco, Puno, Apurimac)"
+PER,Huanuco,"Central (Huancavelica, Huanuco, Junin, Pasco)"
+PER,Junin,"Central (Huancavelica, Huanuco, Junin, Pasco)"
+PER,San Martin,"North East (Amazonas, Loreto, San Martin, Ucayali)"
+PHL,ARMM,ARMM
+PHL,Bicol,V-Bicol
+PHL,Cagayan Valley,II-Cagayan Valley
+PHL,Central Luzon,III-Central Luzon
+PHL,Central Visayas,VII-Central Visayas
+PHL,Cordillera Admin,Cordillera Admin Region
+PHL,Eastern Visayas,VIII-Eastern Visayas
+PHL,IVA-CALABARZON,IVA-CALABARZON
+PHL,IVB-MIMAROPA,IVB-MIMAROPA
+PHL,Ilocos,I-Ilocos
+PHL,National Capital,National Capital Region
+PHL,Northern Mindanao,X-Northern Mindanao
+PHL,SOCCSKSARGEN,XII-SOCCSKSARGEN
+PHL,Western Visayas,VI-Western Visayas
+PHL,Zamboanga Peninsula,IX-Zamboanga Peninsula
+PNG,Autonomous Region of Bougainville,Autonomous Region of Bougainville
+PNG,Oro,"Northern, Oro"
+POL,Dolnoslaskie,Dolnoslaskie
+POL,Lodzkie,Lodzkie
+POL,Malopolskie,Malopolskie
+POL,Slaskie,Slaskie
+POL,Swietokrzyskie,Swietokrzyskie
+POL,Warminsko-Mazurskie,Warminsko-Mazurskie
+PRT,Alentejo,Alentejo
+PRT,Algarve,Algarve
+PRT,Area Metropolitana de Lisboa,Area Metropolitana de Lisboa
+PRT,Centro,Centro
+PRT,Norte,Norte
+PRT,Regiao Autonoma da Madeira,Regiao Autonoma da Madeira
+PRT,Regiao Autonoma dos Acores,Regiao Autonoma dos Acores
+PRY,Alto Parana,"North-East (Caaguazu, Alto Parana, Canideyu)"
+PRY,Asuncion,"Central (Asuncion, Central)"
+PRY,Boqueron,"North-West (Boqueron, Alto Paraguay, Presidente Hayes, Conception, Amambay, San pedro, Cordillera)"
+PRY,Caaguazu,"North-East (Caaguazu, Alto Parana, Canideyu)"
+PRY,Caazapa,"South-West (Caazapa, Itapua)"
+PRY,Canideyu,"North-East (Caaguazu, Alto Parana, Canideyu)"
+PRY,Conception,"North-West (Boqueron, Alto Paraguay, Presidente Hayes, Conception, Amambay, San pedro, Cordillera)"
+PRY,Guaira,"South-East (Guaira, Misiones, Paraguari, Neembucu)"
+PRY,Itapua,"South-West (Caazapa, Itapua)"
+PRY,Misiones,"South-East (Guaira, Misiones, Paraguari, Neembucu)"
+PRY,Neembucu,"South-East (Guaira, Misiones, Paraguari, Neembucu)"
+PRY,Paraguari,"South-East (Guaira, Misiones, Paraguari, Neembucu)"
+PSE,Al Aghwar,Jericho and Al Aghwar
+PSE,Al Aghwar,"Salfit, Ramallah, Al-Bireh, Jericho, Al Aghwar"
+PSE,Al-Bireh,"Salfit, Ramallah, Al-Bireh, Jericho, Al Aghwar"
+PSE,Deir El-Balah,Deir El-Balah
+PSE,Deir El-Balah,"Deir El-Balah, Khan Yunis, Rafah"
+PSE,Gaza City,Gaza City
+PSE,Qalqiliya,"Jenin, Tubas, Tulkarm, Nablus, Qalqiliya"
+PSE,Qalqiliya,Qalqiliya
+PSE,Ramallah,"Salfit, Ramallah, Al-Bireh, Jericho, Al Aghwar"
+PSE,Ramallah & Al-Bireh,Ramallah & Al-Bireh
+QAT,Al-Khor,Al-Khor
+QAT,Al-Rayyan,Al-Rayyan
+QAT,Al-Shamal,Al-Shamal
+QAT,Al-Wakra,Al-Wakra
+QAT,Umm Slal,Umm Slal
+REU,Reunion,Reunion
+ROU,Centru,Centru
+ROU,Nord-Est,Nord-Est
+ROU,Nord-Vest,Nord-Vest
+ROU,Sud,Sud
+ROU,Sud-Est,Sud-Est
+ROU,Sud-Vest Oltenia,Sud-Vest Oltenia
+ROU,Vest,Vest
+RUS,The Central Federal District,The Central Federal District
+RUS,The Far East  Federal District,The Far East  Federal District
+RUS,The North West Federal District,The North West Federal District
+RUS,The North-Caucasian Federal District,The North-Caucasian Federal District
+RUS,The Siberian  Federal District,The Siberian  Federal District
+RUS,The South Federal District,The South Federal District
+RUS,The Urals  Federal District,The Urals  Federal District
+RUS,Volga,The Privolzhsky (Volga) Federal District
+RWA,City of Kigali,City of Kigali
+SAU,Eastern province,Eastern province
+SAU,Riadh,"Center (Riadh, Qassim)"
+SDN,Al Gedarif,Al Gedarif
+SDN,Al Gezira,Al Gezira
+SDN,Nahr El Nil,Nahr El Nil
+SDN,North Kordofan,North Kordofan
+SDN,South Kordofan,South Kordofan
+SEN,Saint Louis,Saint Louis
+SEN,Thies,Thies
+SLV,Central I,Central I
+SLV,Central II,Central II
+SLV,Occidental,Occidental
+SLV,Oriental,Oriental
+SOM,Banadir,Banadir
+SOM,Hiran,Hiran
+SOM,Lower Juba,Lower Juba
+SOM,Lower Shabelle,Lower Shabelle
+SOM,Middle Juba,Middle Juba
+SOM,Middle Shabelle,Middle Shabelle
+SOM,Nugal,Nugal
+SOM,Togdhere,Togdhere
+SOM,W Galbeed,W Galbeed
+SRB,East Serbia,South and East Serbia
+SRB,Sumadija,Sumadija and West Serbia
+SRB,Vojvodina,Vojvodina
+SRB,West Serbia,Sumadija and West Serbia
+SSD,Northern Bahr El Ghazal,Northern Bahr El Ghazal
+SSD,Warrap,Warrap
+SSD,Western Bahr El Ghazal,Western Bahr El Ghazal
+SSD,Western Equatoria,Western Equatoria
+STP,Regiao Centro,Regiao Centro
+STP,Regiao Norte,Regiao Norte
+STP,Regiao Sul,Regiao Sul
+STP,Regiao do Principe,Regiao do Principe
+SVK,Bratislavsky kraj,Bratislavsky kraj
+SVK,Stredne Slovensko,Stredne Slovensko
+SVK,Vychodne Slovensko,Vychodne Slovensko
+SVK,Zapadne Slovensko,Zapadne Slovensko
+SVN,Goriska,Goriska
+SVN,Koroska,Koroska
+SVN,Obalno-kraska,Obalno-kraska
+SVN,Primorsko-notranjska,Primorsko-notranjska
+SWE,Mellersta Norrland,Mellersta Norrland
+SWE,Norra Mellansverige,Norra Mellansverige
+SWE,Ostra Mellansverige,Ostra Mellansverige
+SWE,Ovre Norrland,Ovre Norrland
+SWE,Smaland med oarna,Smaland med oarna
+SWE,Sydsverige,Sydsverige
+SWE,Vastsverige,Vastsverige
+SYR,Al Hasaka,Al Hasaka
+SYR,Al Latakia,Al Latakia
+SYR,Al Qunitara - Quneitra,Al Qunitara - Quneitra
+SYR,Al Raka-Raqqa,Al Raka-Raqqa
+SYR,Al Swida - Sweida,Al Swida - Sweida
+SYR,Der El Zour - Deir Ezzor,Der El Zour - Deir Ezzor
+SYR,Edlab Idleb,Edlab Idleb
+SYR,Halab - Aleppo,Halab - Aleppo
+SYR,Hamaa,Hamaa
+SYR,Rural Damascus,Rural Damascus
+TCA,Caicos,Caicos
+TCA,Providenciales,Providenciales
+TCA,Turks islands,Turks islands
+TCD,Assongha,"Zone 4 (Ouaddai, Assongha, Sila, Biltine - Wadi Fira)"
+TCD,Bahr Koh,"Zone 8 (Mandoul, Moyen-Chari, Bahr Koh, Lac Iro)"
+TCD,Barh El Gazal,"Zone 2 (Borkou, Ennedi, Tibesti, Kanem, Barh El Gazal, Lac)"
+TCD,Biltine - Wadi Fira,"Zone 4 (Ouaddai, Assongha, Sila, Biltine - Wadi Fira)"
+TCD,Chari-Baguimi,"Zone 5 (Chari-Baguimi, Dababa, Baguirmi, Hadjer Lamis)"
+TCD,Ennedi,"Zone 2 (Borkou, Ennedi, Tibesti, Kanem, Barh El Gazal, Lac)"
+TCD,Hadjer Lamis,"Zone 5 (Chari-Baguimi, Dababa, Baguirmi, Hadjer Lamis)"
+TCD,Logone Occidental & Oriental,"Zone 7 (Logone Occidental & Oriental, Monts de Lam, Tandjile Est & Ouest)"
+TCD,Ouest,Zone 6 (Mayo-Kebbi Est and Ouest)
+TCD,Tandjile Est & Ouest,"Zone 7 (Logone Occidental & Oriental, Monts de Lam, Tandjile Est & Ouest)"
+TGO,Centrale,Centrale
+TGO,Lome,Lome
+TGO,Plateaux,Plateaux
+TGO,Savanes,Savanes
+THA,Northeast,Northeast
+TJK,DRS,DRS
+TJK,Duchanbe,Duchanbe
+TJK,GBAO,GBAO
+TJK,formerly,Sughd (formerly Leninabad)
+TKM,Ashgabat City,Ashgabat City
+TLS,Lautem,Lautem
+TLS,Liquica,Liquica
+TON,Ongo Niua,Ongo Niua
+TUN,Beja,"Nord Ouest (Beja, Jendouba, Kef, Siliana)"
+TUN,Gabes,"Sud Est (Gabes, Medinine, Tataouine)"
+TUN,Kasserine,"Centre Ouest (Kairouan, Kasserine, Sidi Bouzid)"
+TUN,Medinine,"Sud Est (Gabes, Medinine, Tataouine)"
+TUN,Sidi Bouzid,"Centre Ouest (Kairouan, Kasserine, Sidi Bouzid)"
+TUR,Aegean (Afyon,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Man"
+TUR,Bingol,"Central East Anatolia (Bingol, Bitlis, Elazig, Hakkari, Malatya, Mus, Tunceli, Van)"
+TUR,Canakkale,"West Marmara (Balikesir, Canakkale, Edirne, Kirkla"
+TUR,Canakkale,"West Marmara (Balikesir, Canakkale, Edirne, Kirklareli, Tekirdag)"
+TUR,Cankiri,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu,"
+TUR,Cankiri,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu, Samsun, Sinop, Tokat, Zonguldak, Bartin, Karabuk)"
+TUR,Central Anatolia (Kayseri,"Central Anatolia (Kayseri, Kirsehir, Nevsehir, Nig"
+TUR,Central East Anatolia (Bingol,"Central East Anatolia (Bingol, Bitlis, Elazig, Hak"
+TUR,Corum,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu,"
+TUR,Corum,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu, Samsun, Sinop, Tokat, Zonguldak, Bartin, Karabuk)"
+TUR,Duzce,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskiseh"
+TUR,Duzce,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskisehir, Kocaeli, Sakarya, Yalova)"
+TUR,East Black Sea (Artvin,"East Black Sea (Artvin, Giresun, Gumushane, Ordu,"
+TUR,East Marmara (Bilecik,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskiseh"
+TUR,Eskiseh,"East Marmara (Bilecik, Bolu, Bursa, Duzce, Eskiseh"
+TUR,Gaziant,"South East Anatolia (Adiyaman, Diyarbakir, Gaziant"
+TUR,Gumushane,"East Black Sea (Artvin, Giresun, Gumushane, Ordu,"
+TUR,Gumushane,"East Black Sea (Artvin, Giresun, Gumushane, Ordu, Rize, Trabzon)"
+TUR,Hak,"Central East Anatolia (Bingol, Bitlis, Elazig, Hak"
+TUR,Icel,"Mediterranean (Adana, Antalya, Burdur, Hatay, Isparta, Icel, K Maras, Osmaniye)"
+TUR,Igdir,"North East Anatolia (Agri, Erzincan, Erzurum, Kars, Bayburt, Ardahan, Igdir)"
+TUR,Ispa,"Mediterranean (Adana, Antalya, Burdur, Hatay, Ispa"
+TUR,Karabuk,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu, Samsun, Sinop, Tokat, Zonguldak, Bartin, Karabuk)"
+TUR,Kili,"South East Anatolia (Adiyaman, Diyarbakir, Gaziantep, Mardin, Siirt, Sanliurfa, Batman, Sirnak, Kili"
+TUR,Kirkla,"West Marmara (Balikesir, Canakkale, Edirne, Kirkla"
+TUR,Kutahya,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Man"
+TUR,Kutahya,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Manisa, Mugla, Usak)"
+TUR,Man,"Aegean (Afyon, Aydin, Denizli, Izmir, Kutahya, Man"
+TUR,Mediterranean (Adana,"Mediterranean (Adana, Antalya, Burdur, Hatay, Ispa"
+TUR,Nig,"Central Anatolia (Kayseri, Kirsehir, Nevsehir, Nig"
+TUR,North East Anatolia (Agri,"North East Anatolia (Agri, Erzincan, Erzurum, Kars"
+TUR,South East Anatolia (Adiyaman,"South East Anatolia (Adiyaman, Diyarbakir, Gaziant"
+TUR,South East Anatolia (Adiyaman,"South East Anatolia (Adiyaman, Diyarbakir, Gaziantep, Mardin, Siirt, Sanliurfa, Batman, Sirnak, Kili"
+TUR,West Black Sea (Amasya,"West Black Sea (Amasya, Cankiri, Corum, Kastamonu,"
+TUR,West Marmara (Balikesir,"West Marmara (Balikesir, Canakkale, Edirne, Kirkla"
+TUV,Nanumaga,"Nanumea, Nanumaga, Niutao"
+TZA,Dar Es Salam, Dar Es Salam
+TZA,Mwanza," Mwanza, Geita"
+UGA,Acholi,"North (Karamoja, Lango, Acholi)"
+UGA,Ankole,"Southwest (Ankole, Kigezi)"
+UGA,Bugishu,"Eastern (Bukedi, Bugishu, Teso)"
+UGA,Bukedi,"Eastern (Bukedi, Bugishu, Teso)"
+UGA,Bunyoro,"Western (Bunyoro, Tooro)"
+UGA,Busoga,East Central (Busoga)
+UGA,Central 1," Central (Central 1, Central 2, Kampala)"
+UGA,Central 2," Central (Central 1, Central 2, Kampala)"
+UGA,East Central," Eastern (Eastern, East Central)"
+UGA,Karamoja," Northern (North, Karamoja, West Nile)"
+UGA,Karamoja,"North (Karamoja, Lango, Acholi)"
+UGA,Kigezi,"Southwest (Ankole, Kigezi)"
+UGA,Lango,"North (Karamoja, Lango, Acholi)"
+UGA,Southwest," Western (Western, Southwest)"
+UGA,Teso,"Eastern (Bukedi, Bugishu, Teso)"
+UGA,Tooro,"Western (Bunyoro, Tooro)"
+UGA,West Nile," Northern (North, Karamoja, West Nile)"
+UGA,West Nile,West Nile
+URY,Florida,"Centro Sur (Flores, Florida and Lavalleja)"
+URY,Metropolitan area,Montevideo and Metropolitan area
+URY,Paysandu,"Litoral Norte (Paysandu, Salto and Rio Negro)"
+URY,Rio Negro,"Litoral Norte (Paysandu, Salto and Rio Negro)"
+URY,San Jose,"Litoral Sur (Soriano, Colonia and San Jose)"
+URY,Tacuarembo,Centro (Durazno and Tacuarembo)
+URY,Trienta y Tres,"Norte (Artigas, Rivera, Cerro Largo and Trienta y Tres)"
+USA,Montana,Montana
+VEN,Amacuros Delta Federal Territory,Amacuros Delta Federal Territory
+VEN,Amazonas Federal Territory,Amazonas Federal Territory
+VEN,Anzoategui,Anzoategui
+VEN,Bolivar,Bolivar
+VEN,Falcon,Falcon
+VEN,Federal District,Federal District
+VEN,Guarico,Guarico
+VEN,Merida,Merida
+VEN,Region Capital, Region Capital
+VEN,Region Central, Region Central
+VEN,Region Centro-Occidental, Region Centro-Occidental
+VEN,Region Guayana, Region Guayana
+VEN,Region Los Andes, Region Los Andes
+VEN,Region Los Llanos, Region Los Llanos
+VEN,Region Oriental, Region Oriental
+VEN,Region Zuliana, Region Zuliana
+VEN,Tachira,Tachira
+VNM,Central Highlands,Central Highlands
+VNM,Mekong River Delta,Mekong River Delta
+VNM,North Central Coast,North Central Coast and South Central Coast
+VNM,Red River Delta,Red River Delta
+VNM,South Central Coast,North Central Coast and South Central Coast
+WSM,Apia Urban Area,Apia Urban Area
+WSM,North West Upolu,North West Upolu
+WSM,Rest of Upolu,Rest of Upolu
+WSM,Savaii,Savaii
+YEM,Amana,"Sana a (capital; Al Amana), Sana a (governorate)"
+YEM,Bayda,"Beida (Al Bayda), Dhamar, Raimah"
+YEM,Hudaydah,"Hodeida (Al Hudaydah), Mahweit (Al Mahwit)"
+YEM,Omran,"Hajja, Sada, Amran (Omran)"
+YEM,capital;,"Sana a (capital; Al Amana), Sana a (governorate)"
+YEM,countryside,"Abyan, Aden (town and countryside), Lahej, Ad Dali (Al Dhalih)"
+YEM,town,"Abyan, Aden (town and countryside), Lahej, Ad Dali (Al Dhalih)"
+Z06,AJK,AJK
+Z06,Gilgit Baltistan,Gilgit Baltistan
+ZAF,KwaZulu Natal,KwaZulu Natal
+ZAF,Northern Province,Northern Province
+ZWE,Matebeleland North,Matebeleland North
+ZWE,Matebeleland South,Matebeleland South
