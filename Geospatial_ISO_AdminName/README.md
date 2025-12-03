@@ -2,6 +2,8 @@
 
 This directory contains ETL scripts for processing datasets where data is already associated with **administrative names** or **ISO country codes**. Unlike raster-based processing, these scripts use **fuzzy name matching** to link location names in source data to GADM administrative boundaries.
 
+> **See Also:** For a detailed summary of all variable transformations with before/after examples, see [GEOSPATIAL_ISO_TRANSFORMATION_SUMMARY.md](GEOSPATIAL_ISO_TRANSFORMATION_SUMMARY.md).
+
 ---
 
 ## Table of Contents
@@ -59,6 +61,7 @@ def normalize_name(name):
 ```
 
 **Examples:**
+
 ```
 "São Paulo"          → "sao_paulo"
 "New York"           → "new_york"
@@ -77,12 +80,14 @@ Many datasets provide **aggregate regions** rather than individual administrativ
 **Patterns Handled:**
 
 1. **Parenthetical lists:**
+
    ```
    Input:  "Central (Kabul Wardak Kapisa Logar Parwan Panjsher)"
    Output: ["Kabul", "Wardak", "Kapisa", "Logar", "Parwan", "Panjsher"]
    ```
 
 2. **Comma-separated lists:**
+
    ```
    Input:  "California, Oregon, Washington"
    Output: ["California", "Oregon", "Washington"]
@@ -95,6 +100,7 @@ Many datasets provide **aggregate regions** rather than individual administrativ
    ```
 
 **Filtering:**
+
 - Removes directional terms: "North", "South", "Eastern", "Central"
 - Removes aggregation terms: "Total", "Urban", "Rural", "Poor", "Nonpoor"
 - Removes Roman numerals: "I-", "II-", "III-"
@@ -142,6 +148,7 @@ else:
 **Why ISO3 verification matters:**
 
 Without ISO verification, "Georgia" could match:
+
 - Georgia (U.S. state) - USA.12_1
 - Georgia (country) - GEO_1
 
@@ -153,11 +160,11 @@ ISO3 check ensures we match "Georgia" to USA.12_1 only when `iso_code = 'USA'`.
 
 GADM provides three name sources for each administrative unit:
 
-| Column                     | Example                     | Description                          |
-| -------------------------- | --------------------------- | ------------------------------------ |
-| `admin_level_1`            | "California"                | Official English name                |
-| `admin_level_1_var_name`   | ["CA", "Calif."]            | Common abbreviations/variants        |
-| `admin_level_1_nl_name`    | ["California", "कैलिफ़ोर्निया"] | Native language names                |
+| Column                   | Example                         | Description                   |
+| ------------------------ | ------------------------------- | ----------------------------- |
+| `admin_level_1`          | "California"                    | Official English name         |
+| `admin_level_1_var_name` | ["CA", "Calif."]                | Common abbreviations/variants |
+| `admin_level_1_nl_name`  | ["California", "कैलिफ़ोर्निया"] | Native language names         |
 
 The matching function queries **all three sources**:
 
@@ -195,11 +202,13 @@ IND,Mumbai,Maharashtra (Mumbai Pune Nagpur)
 ```
 
 **Columns:**
+
 - `ISO Code`: Country identifier (for filtering)
 - `Location`: Extracted location name (as seen in source data)
 - `Original Region`: Full region string from source data (for context)
 
 **Workflow:**
+
 1. Run ETL script
 2. Review `unmatched_locations_*.csv`
 3. Options:
@@ -223,6 +232,7 @@ The GDL provides **subnational development indicators** at state/province and di
 **Source format:** CSV files with "Area" in filename
 
 **Variables:**
+
 - **Wealth:** `iwi` (International Wealth Index), `iwipov70`, `iwipov50`, `iwipov35` (poverty rates)
 - **Technology:** `internet`, `cellphone` (access rates)
 - **Inequality:** `thtwithin`, `thtbetween` (Theil indices)
@@ -236,6 +246,7 @@ The GDL provides **subnational development indicators** at state/province and di
 - **Infrastructure:** `pipedwater`, `electr`
 
 **Special handling:**
+
 - `regpopm` standardized from millions to persons (×1,000,000)
 - National-level data uses `ISO3` directly (admin_level = 0)
 - Subnational data uses fuzzy matching (admin_level = 1 or 2)
@@ -251,6 +262,7 @@ The GDL provides **subnational development indicators** at state/province and di
 **Source format:** CSV files with "SHDI" in filename
 
 **Variables:**
+
 - **Composite indices:** `shdi` (Subnational HDI), `sgdi` (Subnational Gender Development Index)
 - **HDI components:** `healthindex`, `edindex`, `incindex`
 - **Sex-disaggregated indices:** `shdif`, `shdim`, `healthindexf`, `healthindexm`, `edindexf`, `edindexm`
@@ -259,6 +271,7 @@ The GDL provides **subnational development indicators** at state/province and di
 - **Population:** `pop` (in thousands)
 
 **Special handling:**
+
 - `pop` standardized from thousands to persons (×1,000)
 - SHDI/SGDI values range from 0-1 (higher = more developed)
 
@@ -273,6 +286,7 @@ The GDL provides **subnational development indicators** at state/province and di
 **Source format:** CSV files with "weather" in filename
 
 **Variables:**
+
 - `surfacetempyear`: Annual mean surface temperature (°C)
 - `relhumidityyear`: Annual mean relative humidity (%)
 - `totprecipyear`: Total annual precipitation (mm)
@@ -294,12 +308,14 @@ WorldPop provides **population-weighted centroid density** calculations at natio
 **Source format:** GeoJSON files
 
 **Process:**
+
 1. Reads all `.geojson` files in folder
 2. Extracts `ISO` field directly (no fuzzy matching needed)
 3. Sets `admin_level = 0`
 4. Inserts `Population_Weighted_Density_G` variable
 
 **Key fields:**
+
 - `PWD_G`: Population-weighted density (persons/km²)
 - `Pop`: Total population
 - `Density`: Arithmetic density
@@ -317,12 +333,14 @@ WorldPop provides **population-weighted centroid density** calculations at natio
 **Source format:** GeoJSON files
 
 **Process:**
+
 1. Reads all `.geojson` files in folder
 2. Extracts `GID_1` field directly from WorldPop (WorldPop uses GADM GIDs)
 3. Sets `admin_level = 1`
 4. Inserts `Population_Weighted_Density_G` variable
 
 **Key difference from National:**
+
 - Uses `GID_1` instead of `ISO`
 - Includes `Adm_N` (administrative unit name)
 - Represents state/province level data
@@ -342,12 +360,14 @@ IDMC provides **displacement statistics** by country, including conflict-related
 **Source format:** Excel files with sheet `1_Displacement_data`
 
 **Variables (original names):**
+
 - `Conflict Stock Displacement`: Total IDPs from conflict
 - `Conflict Internal Displacements`: New conflict displacements during year
 - `Disaster Internal Displacements`: New disaster displacements during year
 - `Disaster Stock Displacement`: Total IDPs from disasters
 
 **Processing:**
+
 1. Reads all Excel files in folder
 2. Removes duplicates by (`ISO3`, `Name`, `Year`, `source_file`)
 3. Groups by (`ISO3`, `Name`, `Year`, `source_file`) and sums variables
@@ -356,6 +376,7 @@ IDMC provides **displacement statistics** by country, including conflict-related
 6. Sets `admin_level = 0` (national level)
 
 **Output variables (renamed):**
+
 - `Conflict Total Displacement`
 - `Conflict Internal Displacements`
 - `Disaster Internal Displacements`
@@ -370,6 +391,7 @@ IDMC provides **displacement statistics** by country, including conflict-related
 **Source format:** Excel files with sheet `3_IDPs_SADD_estimates`
 
 **Age groups (variables):**
+
 - `0-4`: Children under 5
 - `5-11`: School-age children
 - `12-17`: Adolescents
@@ -377,6 +399,7 @@ IDMC provides **displacement statistics** by country, including conflict-related
 - `60+`: Elderly
 
 **Processing:**
+
 1. Reads all Excel files in folder
 2. Removes duplicates by (`ISO3`, `Year`, `Sex`, `Cause`)
 3. Groups by (`ISO3`, `Country`, `Year`, `Sex`, `Cause`, `source_file`) and sums age groups
@@ -385,6 +408,7 @@ IDMC provides **displacement statistics** by country, including conflict-related
 6. Sets `admin_level = 0`
 
 **Output variable naming pattern:**
+
 ```
 {Cause}_{Sex}_{AgeGroup}
 
@@ -396,10 +420,12 @@ Examples:
 ```
 
 **Causes:**
+
 - `Conflict`: Displaced due to violence, persecution, or war
 - `Disaster`: Displaced due to natural disasters (floods, storms, earthquakes, droughts)
 
 **Sex:**
+
 - `Male`
 - `Female`
 
@@ -449,6 +475,7 @@ CREATE INDEX idx_gdl_metadata ON geospatial_data_gdl USING GIN(metadata);
 ```
 
 **Notes:**
+
 - `raw_value` is the primary data field (others NULL for this source)
 - `note` contains "Extracted from: {original_region}" when locations were split
 - `source` contains filename for traceability
@@ -485,6 +512,7 @@ CREATE INDEX idx_idmc_metadata ON geospatial_data_idmc USING GIN(metadata);
 ```
 
 **Notes:**
+
 - `gid` is ISO3 code (since all IDMC data is national level)
 - `admin_level` is always 0
 - `variable` includes cause and sex for SADD data (e.g., "Conflict_Male_0-4")
@@ -521,6 +549,7 @@ CREATE INDEX idx_worldpop_pwd_metadata ON geospatial_data_worldpop_pwd USING GIN
 ```
 
 **Notes:**
+
 - `gid` is ISO3 for national (admin_level = 0) or GID_1 for subnational (admin_level = 1)
 - `raw_value` contains `PWD_G` (population-weighted density)
 - `note` is "GID directly from WorldPop" (no fuzzy matching)
@@ -540,6 +569,7 @@ Enter the database host: localhost
 ```
 
 **Best practices:**
+
 1. Create tables BEFORE running ETL scripts
 2. Scripts use `CREATE TABLE IF NOT EXISTS` - safe to re-run
 3. Unique constraints prevent duplicate entries
@@ -660,11 +690,13 @@ Inserted 61700 rows into geospatial_data_idmc table.
 **All scripts follow this general flow:**
 
 1. **Extract:**
+
    - Read CSV/Excel/GeoJSON files from folder
    - Filter by filename pattern (GDL) or sheet name (IDMC)
    - Add source filename to each row
 
 2. **Transform:**
+
    - Normalize location names
    - Extract individual locations from aggregate regions
    - Match locations to GADM GIDs (or use direct ISO3/GID)
@@ -686,6 +718,7 @@ Inserted 61700 rows into geospatial_data_idmc table.
 Unlike `Geospatial_Lat_Long/` scripts, these ETL scripts do **not** use multiprocessing.
 
 **Reasons:**
+
 1. **Data volume is smaller:** Typically 1,000-50,000 rows per run (vs. millions for raster data)
 2. **I/O bound:** Reading CSV/Excel files and database inserts dominate runtime
 3. **Dictionary lookups are fast:** GADM name matching is O(1) after initial dictionary load
@@ -726,6 +759,7 @@ Steps:
 ```
 
 **Edge cases handled:**
+
 - "County of X" → "X"
 - "X region" → "X"
 - "incl. Y" → "Y"
@@ -737,6 +771,7 @@ Steps:
 ### ISO3 Mapping
 
 Several ISO3 codes require manual mapping due to:
+
 - Political changes (Kosovo: `XKX` → `XKO`)
 - Historical boundaries (pre-partition Sudan: `AB9` → `SDN`)
 - Special administrative regions (Hong Kong/Macau: `HKG`/`MAC` → `CHN`)
@@ -803,6 +838,7 @@ All scripts store original data attributes in JSONB columns:
 ```
 
 **Benefits:**
+
 - Traceability to source data
 - Flexible schema evolution
 - Query metadata using JSONB operators: `metadata->>'iso_code' = 'USA'`
@@ -824,6 +860,7 @@ cat unmatched_locations_Area.csv | grep "IND"
 ```
 
 **Typical match rates:**
+
 - GDL Area: 85-95% (varies by country naming conventions)
 - GDL SHDI: 90-98% (cleaner names)
 - WorldPop-PWD: 100% (direct GID usage)
@@ -862,12 +899,15 @@ metadata JSONB
 **Symptom:** Many entries in `unmatched_locations_*.csv`
 
 **Causes:**
+
 - Source data uses abbreviations (e.g., "CA" for California)
 - Source data uses historical names not in GADM
 - Source data uses non-English names without proper encoding
 
 **Solutions:**
+
 1. Add variant names to GADM tables:
+
    ```sql
    UPDATE gadm_admin1_new
    SET admin_level_1_var_name = admin_level_1_var_name || '{CA}'
@@ -907,6 +947,7 @@ This allows safe re-runs of ETL scripts.
 **Symptom:** Location exists in GADM but not matching
 
 **Example:**
+
 ```csv
 ISO Code,Location,Original Region
 FRA,Paris,Île-de-France
@@ -915,7 +956,9 @@ FRA,Paris,Île-de-France
 **Cause:** Normalization removes accents but GADM entry uses "Ile-de-France"
 
 **Solution:**
+
 1. Check GADM variant names:
+
    ```sql
    SELECT admin_level_1, admin_level_1_var_name
    FROM gadm_admin1_new
@@ -933,20 +976,20 @@ FRA,Paris,Île-de-France
 
 ## Comparison: ISO/AdminName vs. Lat/Long
 
-| Aspect                   | ISO/AdminName                        | Lat/Long                                 |
-| ------------------------ | ------------------------------------ | ---------------------------------------- |
-| **Input format**         | CSV, Excel, GeoJSON                  | NetCDF, GeoTIFF, HDF                     |
-| **Location method**      | Name-based matching                  | Spatial clipping                         |
-| **Processing approach**  | String normalization + dictionary    | Raster statistics + area weighting       |
-| **Multiprocessing**      | No (small data volumes)              | Yes (6 workers)                          |
-| **Match verification**   | ISO3 code consistency check          | Geometry intersection test               |
-| **Unmatched handling**   | CSV file for manual review           | Null values + missing percentage         |
-| **Data volume**          | 1,000-50,000 rows per run            | Millions of grid cells                   |
-| **Runtime**              | < 30 seconds                         | Minutes to hours                         |
-| **Accuracy**             | Depends on name quality              | Depends on clipping method               |
-| **Admin levels**         | 0 (national), 1 (state), 2 (county) | 0, 1, 2 (any GADM level)                 |
-| **Resumability**         | Re-run entire script                 | File tracking with processed/ folders    |
-| **Primary challenge**    | Name variants and non-Latin scripts  | Boundary precision and computational cost |
+| Aspect                  | ISO/AdminName                       | Lat/Long                                  |
+| ----------------------- | ----------------------------------- | ----------------------------------------- |
+| **Input format**        | CSV, Excel, GeoJSON                 | NetCDF, GeoTIFF, HDF                      |
+| **Location method**     | Name-based matching                 | Spatial clipping                          |
+| **Processing approach** | String normalization + dictionary   | Raster statistics + area weighting        |
+| **Multiprocessing**     | No (small data volumes)             | Yes (6 workers)                           |
+| **Match verification**  | ISO3 code consistency check         | Geometry intersection test                |
+| **Unmatched handling**  | CSV file for manual review          | Null values + missing percentage          |
+| **Data volume**         | 1,000-50,000 rows per run           | Millions of grid cells                    |
+| **Runtime**             | < 30 seconds                        | Minutes to hours                          |
+| **Accuracy**            | Depends on name quality             | Depends on clipping method                |
+| **Admin levels**        | 0 (national), 1 (state), 2 (county) | 0, 1, 2 (any GADM level)                  |
+| **Resumability**        | Re-run entire script                | File tracking with processed/ folders     |
+| **Primary challenge**   | Name variants and non-Latin scripts | Boundary precision and computational cost |
 
 ---
 

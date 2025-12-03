@@ -2,6 +2,8 @@
 
 This directory contains ETL scripts for processing gridded geospatial datasets (NetCDF, HDF, GeoTIFF) on latitude/longitude grids. The scripts calculate areal statistics for administrative boundaries (GADM levels 0, 1, 2) by clipping raster data to polygon geometries and computing area-weighted aggregations.
 
+> **See Also:** For a detailed summary of all variable transformations with before/after examples, see [GEOSPATIAL_LATLONG_TRANSFORMATION_SUMMARY.md](GEOSPATIAL_LATLONG_TRANSFORMATION_SUMMARY.md).
+
 ---
 
 ## Table of Contents

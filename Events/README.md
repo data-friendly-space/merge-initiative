@@ -2,6 +2,8 @@
 
 This directory contains the ETL pipeline for processing and merging disaster event data from multiple sources into a unified PostgreSQL database. The pipeline standardizes event records, administrative locations, disaster classifications, and external identifiers to create a comprehensive events database for analysis.
 
+> **See Also:** For a detailed summary of all variable transformations with before/after examples, see [EVENTS_TRANSFORMATION_SUMMARY.md](EVENTS_TRANSFORMATION_SUMMARY.md).
+
 ---
 
 ## Table of Contents

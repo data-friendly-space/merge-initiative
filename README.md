@@ -170,7 +170,7 @@ export PROJECT_ROOT="/path/to/merge-initiative"
 
    ```
 
-**Documentation**: See [GADM/README.md](GADM/README.md) for detailed schema documentation.
+**Documentation**: [GADM/README.md](GADM/README.md) | [Transformation Summary](GADM/GADM_TRANSFORMATION_SUMMARY.md)
 
 ---
 
@@ -375,7 +375,7 @@ Raw Data (CSV/Excel/GeoJSON)
 - WorldPop-PWD: Population-weighted density (national/subnational)
 - IDMC: Displacement statistics (national level)
 
-**Documentation**: [Geospatial_ISO_AdminName/README.md](Geospatial_ISO_AdminName/README.md)
+**Documentation**: [Geospatial_ISO_AdminName/README.md](Geospatial_ISO_AdminName/README.md) | [Transformation Summary](Geospatial_ISO_AdminName/GEOSPATIAL_ISO_TRANSFORMATION_SUMMARY.md)
 
 ---
 
@@ -439,7 +439,7 @@ Raster Data (NetCDF/GeoTIFF/HDF)
 - Population: WorldPop (count, density, age/sex)
 - Vegetation: NASA MCD43C4 (NDVI)
 
-**Documentation**: [Geospatial_Lat_Long/README.md](Geospatial_Lat_Long/README.md)
+**Documentation**: [Geospatial_Lat_Long/README.md](Geospatial_Lat_Long/README.md) | [Transformation Summary](Geospatial_Lat_Long/GEOSPATIAL_LATLONG_TRANSFORMATION_SUMMARY.md)
 
 ---
 
@@ -489,7 +489,7 @@ events_emdat table            events_idmc table
 - **GLIDE matching**: `FL-2020-000012-USA` (EM-DAT) ↔ `FL-2020-000012` (IDMC)
 - **Admin name standardization**: Using GADM mapping files
 
-**Documentation**: [Events/README.md](Events/README.md)
+**Documentation**: [Events/README.md](Events/README.md) | [Transformation Summary](Events/EVENTS_TRANSFORMATION_SUMMARY.md)
 
 ---
 
